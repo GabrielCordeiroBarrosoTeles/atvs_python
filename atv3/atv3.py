@@ -1,5 +1,6 @@
 
 """
+GRUPO 3
 🚀 [Desafio 002] Desenvolvimento de um Jogo de Adivinhação
 
 O objetivo deste desafio é criar um jogo de adivinhação em que o usuário tentará adivinhar um número gerado aleatoriamente. Siga as especificações abaixo para completar o desafio:
@@ -77,7 +78,7 @@ class JogoAdivinhacao:
         if self.rodada_atual > self.rodadas:
             self.fim_jogo()
         else:
-            self.label_rodada.config(text=f"Rodada {self.rodada_atual} de {self.rodadas}")
+            self.label_rodada.config(text=f"Rodada {self.rodada_atual}/{self.rodadas}")
             self.botao_adivinhar.config(state=tk.NORMAL)
             self.entry_numero.delete(0, tk.END)
             self.entry_numero.focus()
