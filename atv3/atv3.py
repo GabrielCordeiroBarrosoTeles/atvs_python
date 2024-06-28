@@ -1,6 +1,5 @@
 
 """
-[01:18, 21/06/2024] Cordeiro: GRUPO 3
 🚀 [Desafio 002] Desenvolvimento de um Jogo de Adivinhação
 
 O objetivo deste desafio é criar um jogo de adivinhação em que o usuário tentará adivinhar um número gerado aleatoriamente. Siga as especificações abaixo para completar o desafio:
