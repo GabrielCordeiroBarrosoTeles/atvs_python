@@ -34,6 +34,15 @@ from email.mime.text import MIMEText
 from email import encoders
 from decouple import config
 
+'''
+Cria um arquivo tipo .env  e coloca
+
+GMAIL_USER= seuemail
+# Crie e gerencie suas senhas de app           
+GMAIL_PASS= senha  
+
+'''
+
 # Carrega as variáveis de ambiente do arquivo .env
 gmail_user = config("GMAIL_USER")
 gmail_pass = config("GMAIL_PASS")
